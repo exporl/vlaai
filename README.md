@@ -7,7 +7,7 @@ Accurate decoding of the speech envelope using the VLAAI deep neural network.
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
 [![flake8 code style](https://img.shields.io/badge/code%20style-flake8-blue.svg)](https://flake8.pycqa.org/en/latest/)
-[![Open evaluation example in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/master/examples/evaluation_on_the_DTU_dataset.ipynb).
+[![Open evaluation example in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
 
 
 
@@ -96,7 +96,7 @@ The example notebook where the VLAAI network is evaluated on the
 [DTU dataset by Fuglsang et al.]([Fuglsang et al.](https://zenodo.org/record/1199011)) 
 can be executed on Google Colab using the following link:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/master/examples/evaluation_on_the_DTU_dataset.ipynb).
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
 
 
 
