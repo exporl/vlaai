@@ -41,9 +41,14 @@ from model import pearson_loss, pearson_metric
 decoder.compile(optimizer='adam', loss=pearson_loss, metrics=[pearson_metric])
 ```
 
-Pre-trained model versions (using the preprocessing described in the paper) are
-available in the [pretrained_models](./pretrained_models) directory. Three 
-formats are provided
+Pre-trained model versions (using the preprocessing and dataset (
+single-speaker stories dataset, 80 subjects that listened to 1 hour and 46 
+minutes on average for a total of 144 hours of EEG data) in the 
+[paper](./#)) are available in the [pretrained_models](./pretrained_models)
+(see also [this document](./pretrained_models/README.md) for more 
+information).
+
+Three formats are provided:
 
 1. TensorFlow SavedModel format ([pretrained_model/vlaai](./pretrained_models/vlaai))
 2. HDF5 format ([pretrained_model/vlaai.h5](./pretrained_models/vlaai.h5))
@@ -92,8 +97,8 @@ The [examples](./examples) directory contains code for evaluating the VLAAI
 network in Jupyter notebook format. These notebooks can be run on Google Colab
 using their [github integration](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
-The example notebook where the VLAAI network is evaluated on the 
-[DTU dataset by Fuglsang et al.]([Fuglsang et al.](https://zenodo.org/record/1199011)) 
+The example notebook where the pre-trained VLAAI network is evaluated on the 
+[DTU dataset by Fuglsang et al.](https://zenodo.org/record/1199011)
 can be executed on Google Colab using the following link:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
