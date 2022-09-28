@@ -1,5 +1,5 @@
 
-Accurate decoding of the speech envelope using the VLAAI deep neural network.
+Decoding of the speech envelope using the VLAAI deep neural network.
 =============================================================================
 
 [![Python version 3.6+](https://img.shields.io/badge/python-3.6%2B-brightgreen)](https://www.python.org/downloads/)
@@ -7,17 +7,17 @@ Accurate decoding of the speech envelope using the VLAAI deep neural network.
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
 [![flake8 code style](https://img.shields.io/badge/code%20style-flake8-blue.svg)](https://flake8.pycqa.org/en/latest/)
-[![Open evaluation example in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
+[![Open evaluation example in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/exporl/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
 
 
 
-![The vlaai network](./images/vlaai.svg)
+![The vlaai network](./images/vlaai_non_transparant.svg)
 
 This repository contains a pre-trained subject-independent model that can
 decode the speech envelope from EEG signals. The model was presented in the 
 paper:
 
-[Accurate decoding of the speech envelope using the VLAAI deep neural network](./#)
+[Decoding of the speech envelope using the VLAAI deep neural network](./#)
 
 by [Bernd Accou](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00114712), [Jonas Vanthornhout](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00077061), [Hugo Van hamme](https://www.kuleuven.be/wieiswie/en/person/00040707), and [Tom Francart](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00046624).
 
@@ -101,7 +101,7 @@ The example notebook where the pre-trained VLAAI network is evaluated on the
 [DTU dataset by Fuglsang et al.](https://zenodo.org/record/1199011)
 can be executed on Google Colab using the following link:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berndie/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/exporl/vlaai/blob/main/examples/evaluation_on_the_DTU_dataset.ipynb).
 
 
 
