@@ -1,7 +1,7 @@
 
 Accurate decoding of the speech envelope using the VLAAI deep neural network.
-
 =============================================================================
+
 [![Python version 3.6+](https://img.shields.io/badge/python-3.6%2B-brightgreen)](https://www.python.org/downloads/)
 [![Tensorflow version 3.6+](https://img.shields.io/badge/Tensorflow-v2.3.0%2B-orange)](https://tensorflow.org)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
@@ -18,6 +18,7 @@ decode the speech envelope from EEG signals. The model was presented in the
 paper:
 
 [Accurate decoding of the speech envelope using the VLAAI deep neural network](./#)
+
 by [Bernd Accou](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00114712), [Jonas Vanthornhout](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00077061), [Hugo Van hamme](https://www.kuleuven.be/wieiswie/en/person/00040707), and [Tom Francart](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00046624).
 
 # Using the VLAAI network
